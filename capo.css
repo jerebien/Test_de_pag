@@ -16,5 +16,21 @@ nav {
 
 article {
     text-align: center;
-    margin-top: 15px;
+    width: 1200px;
+}
+textarea {
+    max-width: 300px;
+    max-height: 500px;
+}
+
+input {
+    display: inline-block;
+}
+
+aside {
+    width: 166px;
+    text-align: center;
+    float: right;
+    margin-top: -385px;
+    height: 534px;
 }
