@@ -40,3 +40,13 @@ footer {
     justify-content: space-around;
     margin-top: 131px;
 }
+
+.canales {
+    color: #000;
+    text-decoration: none;
+}
+
+.canales:hover {
+    text-decoration: underline;
+    color: #666
+}
