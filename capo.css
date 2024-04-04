@@ -18,9 +18,10 @@ article {
     text-align: center;
     width: 1200px;
 }
+
 textarea {
     max-width: 300px;
-    max-height: 500px;
+    max-height: 400px;
 }
 
 input {
@@ -29,8 +30,13 @@ input {
 
 aside {
     width: 166px;
-    text-align: center;
     float: right;
     margin-top: -385px;
-    height: 534px;
+    height: 516px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 131px;
 }
