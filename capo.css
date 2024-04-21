@@ -69,3 +69,48 @@ h1 {
     text-decoration: underline;
     color: #666
 }
+
+.box {
+    position: relative;
+    display: inline-block;
+    width: 395px;
+    height: 395px;
+    border: 3px solid #000;
+}
+
+.box__position {
+    position: absolute;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    background-color: #e42;
+}
+
+.box__position:nth-child(2) {
+    bottom: 0;
+    background-color: #48e;
+}
+
+.box__position:nth-child(3) {
+    right: 0;
+    background-color: #ff0;
+}
+
+.box__position:nth-child(4) {
+    bottom: 0;
+    right: 0;
+    background-color: #00d;
+}
+
+.box__position:last-child {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: #000;
+}
+
+.position__text {
+    color: #fff;
+}
